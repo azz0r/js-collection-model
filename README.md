@@ -1,2 +1,7 @@
-# js-collection-model
-Simple Javascript collection and model handling
+# Simple Javascript Collection & Model
+
+## Features
+
+## Does not feature
+ - Relationships
+ - API sync or calling
