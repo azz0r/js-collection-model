@@ -59,11 +59,15 @@ export default class Collection {
   }
 
   getLastItem() {
-    return this.models[this.models.length - 1]
+    const model = this.getModels()[this.models.length - 1]
+
+		return this.get(model.id)
   }
 
   getFirstItem() {
-    return this.models[0]
+    const model = this.getModels()[0]
+
+		return this.get(model.id)
   }
 
   get(id) {
